@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="../Design/icon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="../main.css" />
+		<script src="../script.js" defer></script>
+		<title>Joseph Bot - Portfolio</title>
+	</head>
+
+	<body>
+		<div class="lightbox">
+			<img src="" class="lightbox-content" id="lightbox-content" />
+		</div>
+
+		<div class="navbar-wrap">
+			<div class="container">
+				<header class="header">
+					<div class="header-name header-element">
+						<h1 class="title">Joseph Bot</h1>
+						<p class="sub-title">Game Programmer</p>
+					</div>
+
+					<div class="header-element">
+						<nav class="header-nav">
+							<ul>
+								<li><a href="#about">A PROPOS</a></li>
+								<li><a href="#projects">PROJETS</a></li>
+								<li><a href="#contact">CONTACT</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="header-element">
+						<button class="button-cv" onclick="window.open('https://joebot.fr/CV.html', '_blank');">
+							<a>CV</a><i class="fa-solid fa-arrow-down"></i>
+						</button>
+					</div>
+				</header>
+			</div>
+		</div>
+
+		<div class="resolution-warning-wrapper">
+			<div class="resolution-warning">
+				<p>
+					Ce site n'est pas conçu pour mobile, veuillez passer sur ordinateur pour une
+					expérience optimale.
+				</p>
+			</div>
+		</div>
+
+		<div id="about">
+			<div class="container">
+				<div class="headline">
+					<img src="../Design/photo.png" class="headline-photo" />
+					<h3 class="headline-text">
+						Programmeur de jeux vidéo diplômé du CNAM-ENJMIN. Motivé, rigoureux et toujours prêt à relever de nouveaux défis. 
+						À la recherche d'un poste en programmation gameplay.
+					</h3>
+				</div>
+			</div>
+		</div>
+
+		<img src="../Design/SVG/Wave.svg" class="about-wave" />
+		²
+		<div style="background-color: white; margin-top: -1.5em">
+			<div class="container about">
+				<div class="about-grid">
+					<div class="about-grid-element">
+						<img src="../Design/code-colored.png" class="about-icon" />
+						<h4 class="about-title">Compétences</h4>
+						<p class="about-content">
+							Unity, C#, Python, HTML, CSS, Blender, Godot, Photoshop, Premiere Pro, Jira.
+						</p>
+					</div>
+
+					<div class="about-grid-element">
+						<img src="../Design/formation-colored.png" class="about-icon" />
+						<h4 class="about-title">Formation</h4>
+						<p class="about-content">
+							<span style="font-weight: 500">CNAM-ENJMIN (2022-2025)</span><br />Licence
+							générale informatique parcours jeux vidéo.
+						</p>
+					</div>
+
+					<div class="about-grid-element">
+						<img src="../Design/cinema-colored.png" class="about-icon" />
+						<h4 class="about-title">Hobbies</h4>
+						<p class="about-content">
+							Jeux vidéo, Programmation, Hardware, Cinéma, Infographie, Natation, Escrime.
+						</p>
+					</div>
+				</div>
+
+				<p class="about-paragraph">
+					Programmant depuis 2018, je ne manque pas une occasion d'élargir mes compétences
+					en relevant tous les challenges qui s'offrent à moi. Appréciant
+					la programmation et notamment l'aspect visuel de la conception de jeux vidéo, je 
+					m'intéresse particulièrement à ce qui touche au rendu ou au rendering (shaders, post-processing) 
+					pour à l'avenir me tourner vers le métier de Technical Artist ou Graphics Programmer.
+				</p>
+			</div>
+		</div>
+
+		<div class="projects-pro-wave"><img src="../Design/SVG/Wave-2.svg" /></div>
+
+		<div class="projects-pro" style="background-color: #353535; scroll-margin-top: 3.5em" id="projects">
+			<div style="height: 4rem; margin-top: -2.7em"></div>
+
+			<div class="container projects-pro">
+				<h1 class="projects-title">PROJETS PROFESSIONNELS</h1>
+
+				<div class="project-pro-selection-container">
+					<img
+					src="../Design/TNM/TNM-SMALL.png".
+					id="s-project-pro-1"
+					class="project-pro-selection-element"
+					/>
+					<img
+					src="../Design/SIW/SIW.png"
+					id="s-project-pro-2"
+						class="project-pro-selection-element"
+					/>
+				</div>
+
+				
+				<div class="project" id="project-pro-1" style="margin-top: 3.5em">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/TNM/TNM.jpg"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(13, 1fr)">
+								<img
+									src="../Design/TNM/Gameplay-Thumbnail.png"
+									id="https://www.youtube.com/embed/PiavhwHZmJA"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/TNM/HQ-Thumbnail.png"
+									id="https://www.youtube.com/embed/g7cA5CkBQ3w"
+									class="carousel-item"
+								/>
+								<img src="../Design/TNM/Fight.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/Fight2.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/HealingRoom.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/BlackMarket.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/ChipDesk.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/TeamPanel.png" id="img" class="carousel-item" />
+								<img src="../Design/TNM/MutationRoom.gif" id="img" class="carousel-item" />
+								<img src="../Design/TNM/Shader3.gif" id="img" class="carousel-item" />
+								<img src="../Design/TNM/Shader2.gif" id="img" class="carousel-item" />
+								<img src="../Design/TNM/Shader1.gif" id="img" class="carousel-item" />
+								<img src="../Design/TNM/Shader4.gif" id="img" class="carousel-item" />
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">2D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+
+							<div class="project-infos-container">
+								<div class="project-info">
+									1 AN<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									6<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+
+						<h5>THEY'RE NOT MONSTERS</h5>
+						<h6>BELETTE TEAM STUDIO</h6>
+						<p class="project-paragraph">
+							They're Not Monsters est un savant mélange de roguelike, d'autobattler et de
+							tactique en temps réel.
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Premier opus du studio Belette Team, auquel j'ai contribué en étroite
+							collaboration avec Jordan Lafont (Lead Programmeur) de par la programmation
+							gameplay, l'intégration visuelle ainsi que la création de différents shaders
+							et VFX, ce qui a conduit à l'aboutissement de la vertical slice ci-contre en 2023.
+						</p>
+
+						<div class="project-buttons-container" style="margin-top: 1em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button steam"
+								onclick="window.open('https://store.steampowered.com/app/2423140/Theyre_Not_Monsters/', '_blank');"
+							>
+								<a>STEAM</a><i class="fa-brands fa-steam"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project" id="project-pro-2" style="margin-top: 3.5em; display: none">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/SIW/SIW.png"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+	
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(13, 1fr)">
+								<img
+									src="../Design/SIW/SIW-THUMBNAIL.png"
+									id="https://www.youtube.com/embed/0bTu4-ZJiSM"
+									class="carousel-item"
+								/>
+								<img src="../Design/SIW/SIW-1.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-2.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-3.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-4.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-5.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-6.jpg" id="img" class="carousel-item" />
+								<img src="../Design/SIW/SIW-7.jpg" id="img" class="carousel-item" />
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">2D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+	
+							<div class="project-infos-container">
+								<div class="project-info">
+									1 AN<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									8<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+	
+						<h5>SMASH IT WILD</h5>
+						<h6>GOBLINZ STUDIO</h6>
+						<p class="project-paragraph">
+							Smash It Wild est un jeu tactique au tour par tour mêlant volley-ball et dodgeball, dans un univers fantastique. Améliorez vos champions et affrontez des adversaires dans une compétition roguelike intense ! 
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Projet sur lequel je travaille depuis plus d'un an, en étroite collaboration avec Ernestine Studio pour les visuels du jeu.<br>
+							Du prototypage jusqu'à la phase de production en passant par la pré-production.
+						</p>
+	
+						<div class="project-buttons-container" style="margin-top: 0em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button steam"
+								onclick="window.open('https://store.steampowered.com/app/2432240/Smash_It_Wild/', '_blank');"
+							>
+								<a>STEAM</a><i class="fa-brands fa-steam"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="projects-wave"><img src="../Design/SVG/Wave-3.svg" /></div>
+
+		<div class="projects" style="background-color: #222222">
+			<div style="height: 3rem"></div>
+
+			<div class="container projects-perso">
+				<h1 class="projects-title">PROJETS PERSONNELS</h1>
+
+				<div class="project-selection-container">
+					<img
+						src="../Design/KFC/KFC-thumbnail.svg"
+						id="s-project-4"
+						class="project-selection-element"
+					/>
+					<img
+						src="../Design/ALCHEMYST/ALCHEMYST-SMALL.png"
+						id="s-project-1"
+						class="project-selection-element"
+					/>
+					<img
+						src="../Design/PLATFORMER/Action-platformer.png"
+						id="s-project-2"
+						class="project-selection-element"
+					/>
+					<img
+						src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR.png"
+						id="s-project-3"
+						class="project-selection-element"
+					/>
+				</div>
+
+				<div class="project" id="project-1" style="margin-top: 3.5em; display: none">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/ALCHEMYST/ALCHEMYST.png"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(14, 1fr)">
+								<img
+									src="../Design/ALCHEMYST/ZONE-1-THUMBNAIL.png"
+									id="https://www.youtube.com/embed/OTuCE2yEfDU"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/ZONE-2-THUMBNAIL.png"
+									id="https://www.youtube.com/embed/zGl4hU_0Zag"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/CONCOCTION-THUMBNAIL.png"
+									id="https://www.youtube.com/embed/ov6lKl3p2PM"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/NEGOCIATION-THUMBNAIL.png"
+									id="https://www.youtube.com/embed/WsqXFcX6Bxc"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/MONTAIN-BIOME-1.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/MONTAIN-BIOME-2.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/LAVA-BIOME-1.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/LAVA-BIOME-2.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/ICE-BIOME-1.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/ICE-BIOME-2.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img src="../Design/ALCHEMYST/Recipes.gif" id="img" class="carousel-item" />
+								<img src="../Design/ALCHEMYST/Merchant.gif" id="img" class="carousel-item" />
+								<img
+									src="../Design/ALCHEMYST/Negociation-game.gif"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ALCHEMYST/AFFICHE-ALCHEMYST.png"
+									id="img"
+									class="carousel-item"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">3D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+
+							<div class="project-infos-container">
+								<div class="project-info">
+									6 MOIS<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									7<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+
+						<h5>ALCHEMYST</h5>
+						<p class="project-paragraph" style="margin-top: 0.25em">
+							Apprenti alchimiste, partez explorer un monde fantastique à la recherche de
+							toujours plus d'ingrédients et de recettes ! Munissez-vous de votre faucille
+							et de potions afin de défaire les obstacles et énigmes qui se dresseront
+							devant vous ! Utilisez à bon escient votre chaudron, et gagnez en réputation
+							en vendant vos potions !
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Projet de fin de première année de licence au CNAM-ENJMIN imaginé par Erwan Temple et
+							moi, pour lequel j'ai conçu une grande portion du level design ainsi que le
+							design de l'UI/UX, sans oublier la programmation.
+						</p>
+
+						<div class="project-buttons-container" style="margin-top: -0.5em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button"
+								onclick="window.open('https://sneyus.itch.io/alchemyst', '_blank');"
+							>
+								<a>ITCH</a><i class="fa-brands fa-itch-io"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-credits" id="project-1-credits" style="display: none">
+					<div class="project-credits-bar"></div>
+					<p>ÉQUIPE</p>
+					<div class="project-credits-flex">
+						<div class="project-credits-element">
+							<h4>Joseph BOT</h4>
+							<p>
+								Game Design<br />
+								Level Design<br />
+								UI/UX Design<br />
+								Programming
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Erwan TEMPLE</h4>
+							<p>
+								Game Design<br />
+								Programming<br />
+								UI Art
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Raphaël MADELIN</h4>
+							<p>
+								Game Design<br />
+								Programming<br />
+								QA Testing
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Océane MASSE</h4>
+							<p>
+								Level Design<br />
+								Game Design
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Elessar THOMANN</h4>
+							<p>
+								Narrative Design<br />
+								QA Testing
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Léo JEGOUSSE</h4>
+							<p>Sound Design</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Antoine LECHAT</h4>
+							<p>3D Art</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="project" id="project-2" style="margin-top: 3.5em; display: none">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/PLATFORMER/Action-platformer.png"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(6, 1fr)">
+								<img
+									src="../Design/PLATFORMER/Action-platformer-thumbnail.png"
+									id="https://www.youtube.com/embed/cFD2BjL8nyE"
+									class="carousel-item"
+								/>
+								<img src="../Design/PLATFORMER/Fight.gif" id="img" class="carousel-item" />
+								<img
+									src="../Design/PLATFORMER/Action-platformer-1.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/PLATFORMER/Action-platformer-2.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/PLATFORMER/Action-platformer-3.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img src="../Design/PLATFORMER/Death.gif" id="img" class="carousel-item" />
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">2D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+
+							<div class="project-infos-container">
+								<div class="project-info">
+									10 JOURS<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									1<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+
+						<h5>ACTION PLATFORMER</h5>
+						<p class="project-paragraph" style="margin-top: 0.25em">
+							Incarnez un jeune villageois partant à l'aventure et luttant contre les
+							forces des ténèbres. Sautez de plateforme en plateforme et venez à bout des
+							monstres tout en redorant les bannières qui se hissent sur votre chemin !
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Mon premier projet en 2D développé sur Unity en 2021.<br />
+							Je voulais m'essayer au système de tilemaps ainsi que me pencher sur le
+							système de particules et de lumières afin de créer un bel environnement
+							nocturne.
+						</p>
+						<div class="project-buttons-container" style="margin-top: 1.5em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button"
+								onclick="window.open('https://sneyus.itch.io/2d-platformer-aventure', '_blank');"
+							>
+								<a>ITCH</a><i class="fa-brands fa-itch-io"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project" id="project-3" style="margin-top: 3.5em; display: none">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR.png"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(8, 1fr)">
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-Thumbnails.png"
+									id="https://www.youtube.com/embed/UEXnzsf8fVM"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-GAMEPLAY.gif"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-1.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-2.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-3.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-4.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/MAP.png"
+									id="img"
+									class="carousel-item"
+								/>
+								<img
+									src="../Design/ZOMBIES-SURVIVOR/ZOMBIES-SURVIVOR-MAP.gif"
+									id="img"
+									class="carousel-item"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">3D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+
+							<div class="project-infos-container">
+								<div class="project-info">
+									2 SEMAINES<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									1<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+
+						<h5>ZOMBIES SURVIVOR</h5>
+						<p class="project-paragraph" style="margin-top: 0.25em">
+							Un endless beat'em all shooter vue top down en 3D voxel dans lequel vous
+							devez survivre aux hordes de zombies. <br />Éliminer en un maximum pour
+							gagner diverses récompenses vous permettant ainsi d'acquérir de meilleures
+							armes et des munitions afin de survivre le plus longtemps possible !
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Avec ce projet j'ai voulu m'essayer au développement d'un jeu type top 
+							down shooter en voxel avec une IA très basique.
+							<br/>Ca m'a permis d'en apprendre d'avantage sur les animation layers et la 
+							physique mais ce fut également un vrai défi d'environnement art.
+						</p>
+
+						<div class="project-buttons-container" style="margin-top: -1em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button"
+								onclick="window.open('https://sneyus.itch.io/zombies-survivor', '_blank');"
+							>
+								<a>ITCH</a><i class="fa-brands fa-itch-io"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project" id="project-4" style="margin-top: 3.5em">
+					<div class="project-main-content">
+						<iframe
+							class="project-main-video"
+							src=""
+							title="VOD"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<img
+							src="../Design/KFC/KFC-placeholder.svg"
+							id="project-main-img"
+							class="project-main-img"
+						/>
+
+						<div class="carousel-wrapper">
+							<a id="previous" class="carousel-left-arrow slider-arrow"
+								><img src="../Design/SVG/left-arrow.svg"
+							/></a>
+							<a id="next" class="carousel-right-arrow slider-arrow"
+								><img src="../Design/SVG/right-arrow.svg"
+							/></a>
+							<div class="carousel-list" style="grid-template-columns: repeat(1, 1fr)">
+								<img
+									src="../Design/KFC/KFC-placeholder.svg"
+									id="img"
+									class="carousel-item"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="projects-main-text" style="text-align: left; padding-left: 1.5em">
+						<div class="project-infos-layout">
+							<div class="project-tags-container">
+								<div class="project-tag">2D</div>
+								<div class="project-tag">Unity</div>
+								<div class="project-tag">C#</div>
+							</div>
+
+							<div class="project-infos-container">
+								<div class="project-info">
+									X MOIS<img src="../Design/TIME.png" class="project-info-icon" />
+								</div>
+								<div class="project-info">
+									1<img src="../Design/person.png" class="project-info-icon" />
+								</div>
+							</div>
+						</div>
+
+						<h5>KFC</h5>
+						<p class="project-paragraph" style="margin-top: 0.25em">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+							quis nostrud exercitation ullamco laboris.
+						</p>
+						<p class="project-paragraph" style="margin-top: -0.3em">
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+							eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+
+						<div class="project-buttons-container" style="margin-top: 1em">
+							<div class="project-button-text">PAGE</div>
+							<button
+								class="project-button"
+								onclick="window.open('#', '_blank');"
+							>
+								<a>ITCH</a><i class="fa-brands fa-itch-io"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-credits" id="project-4-credits">
+					<div class="project-credits-bar"></div>
+					<p>ÉQUIPE</p>
+					<div class="project-credits-flex">
+						<div class="project-credits-element">
+							<h4>Joseph BOT</h4>
+							<p>
+								Game Design<br />
+								Level Design<br />
+								UI/UX Design<br />
+								Programming
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Erwan TEMPLE</h4>
+							<p>
+								Game Design<br />
+								Programming<br />
+								UI Art
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Raphaël MADELIN</h4>
+							<p>
+								Game Design<br />
+								Programming<br />
+								QA Testing
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Océane MASSE</h4>
+							<p>
+								Level Design<br />
+								Game Design
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Elessar THOMANN</h4>
+							<p>
+								Narrative Design<br />
+								QA Testing
+							</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Léo JEGOUSSE</h4>
+							<p>Sound Design</p>
+						</div>
+						<div class="project-credits-element">
+							<h4>Antoine LECHAT</h4>
+							<p>3D Art</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact-wave"><img src="../Design/SVG/Wave-4.svg" /></div>
+
+		<div style="background-color: #e86565; margin-top: -4em">
+			<div class="container contact">
+				<h1 class="contact-header">CONTACT</h1>
+
+				<div class="contact-flex">
+					<div class="contact-flex-element">
+						<a href="https://github.com/Bot-Joseph" target="_blank"
+							><img src="../Design/GitHub.png" class="contact-icon"
+						/></a>
+						<p class="contact-text">Bot-Joseph</p>
+					</div>
+
+					<div class="contact-flex-element">
+						<a href="https://www.linkedin.com/in/joseph-bot/" target="_blank"
+							><img src="../Design/Linkedin.png" class="contact-icon"
+						/></a>
+						<p class="contact-text">in/joseph-bot</p>
+					</div>
+
+					<div class="contact-flex-element">
+						<a href="mailto:bot.joseph@proton.me"
+							><img src="../Design/Mail.png" class="contact-icon"
+						/></a>
+						<p class="contact-text">bot.joseph@proton.me</p>
+					</div>
+
+					<div class="contact-flex-element">
+						<a href="tel:0695571158"
+							><img src="../Design/Phone.png" class="contact-icon"
+						/></a>
+						<p class="contact-text">06 95 57 11 58</p>
+					</div>
+				</div>
+
+				<div style="height: 2.5em"></div>
+			</div>
+		</div>
+
+		<footer class="footer" id="contact">
+			<p style="font-weight: 300; font-size: 1.1rem">Copyright © 2025</p>
+			<p>Handcrafted by Joseph Bot</p>
+		</footer>
+	</body>
+</html>
