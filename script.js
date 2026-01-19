@@ -1,3 +1,8 @@
+// Remove loading cursor when page has loaded
+window.addEventListener("load", () => {
+    document.documentElement.classList.remove("loading");
+});
+
 const lightbox = document.querySelector(".lightbox");
 const creditsProject1 = document.querySelector("#project-1-credits");
 const creditsProject4 = document.querySelector("#project-4-credits");

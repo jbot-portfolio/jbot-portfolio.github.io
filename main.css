@@ -33,6 +33,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+html.loading,
+html.loading * {
+	cursor: wait !important;
+}
+
 h1 {
 	font-size: 3.62rem;
 }
