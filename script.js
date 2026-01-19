@@ -1,5 +1,6 @@
 const lightbox = document.querySelector(".lightbox");
 const creditsProject1 = document.querySelector("#project-1-credits");
+const creditsProject4 = document.querySelector("#project-4-credits");
 
 function initProject(_id, color) 
 {
@@ -96,6 +97,7 @@ window.addEventListener("load", initProject("project-pro-2", "--clr-dark-grey"))
 window.addEventListener("load", initProject("project-1", "--clr-dark"));
 window.addEventListener("load", initProject("project-2", "--clr-dark"));
 window.addEventListener("load", initProject("project-3", "--clr-dark"));
+window.addEventListener("load", initProject("project-4", "--clr-dark"));
 
 
 const initProjectSelection = () => 
@@ -139,11 +141,13 @@ const initProjectSelection = () =>
                 selectedItem.style.border = "0.15em solid var(--clr-dark)";
                 selectedItem.style.transform = "scale(1)";
                 creditsProject1.style.display = "none";
+                creditsProject4.style.display = "none";
             });
             
             item.style.border = "0.15em solid var(--clr-accent)";
             item.style.transform = "scale(1.05)";
             if(item.id.slice(2) == "project-1") creditsProject1.style.display = "block";
+            if(item.id.slice(2) == "project-4") creditsProject4.style.display = "block";
 
             projectSelected = item.id.slice(2);
             
