@@ -152,7 +152,7 @@ const initProjectSelection = () =>
             item.style.border = "0.15em solid var(--clr-accent)";
             item.style.transform = "scale(1.05)";
             if(item.id.slice(2) == "project-1") creditsProject1.style.display = "block";
-            if(item.id.slice(2) == "project-4") creditsProject4.style.display = "block";
+            // if(item.id.slice(2) == "project-4") creditsProject4.style.display = "block";
 
             projectSelected = item.id.slice(2);
             

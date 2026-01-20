@@ -250,6 +250,7 @@ body {
 .headline-photo {
 	max-width: 288px;
 	max-height: 288px;
+	transform: scaleX(-1);
 }
 
 .headline-text {
