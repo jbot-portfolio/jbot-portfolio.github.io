@@ -1,6 +1,12 @@
-// Remove loading cursor when page has loaded
 window.addEventListener("load", () => {
-    document.documentElement.classList.remove("loading");
+	document.documentElement.classList.remove("loading");
+	const loadingScreen = document.getElementById("loading-screen");
+	if (loadingScreen) {
+		loadingScreen.classList.add("hidden");
+		setTimeout(() => {
+			loadingScreen.style.display = "none";
+		}, 500);
+	}
 });
 
 const lightbox = document.querySelector(".lightbox");
