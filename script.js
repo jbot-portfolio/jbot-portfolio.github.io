@@ -116,10 +116,21 @@ const initProjectSelection = () =>
     const projectSelectors = document.querySelectorAll(".project-selection-element");
     var projects = document.querySelector(".projects").querySelectorAll(".project");
 
-    //Select the first by default
-    projectSelectors[0].style.border = "0.15em solid var(--clr-accent)";
-    projectSelectors[0].style.transform = "scale(1.05)";
-    var projectSelected = projectSelectors[0].id.slice(2);
+    var projectSelected = "project-1";
+    const alchemystSelector = document.getElementById("s-project-1");
+    projectSelectors.forEach(sel => {
+        sel.style.border = "0.15em solid var(--clr-dark)";
+        sel.style.transform = "scale(1)";
+    });
+    if (alchemystSelector) {
+        alchemystSelector.style.border = "0.15em solid var(--clr-accent)";
+        alchemystSelector.style.transform = "scale(1.05)";
+    }
+    projects.forEach(prj => {
+        prj.style.display = prj.id === projectSelected ? "grid" : "none";
+    });
+    if (creditsProject1) creditsProject1.style.display = "block";
+    if (creditsProject4) creditsProject4.style.display = "none";
 
     projectSelectors.forEach(item => 
     {

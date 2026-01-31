@@ -33,11 +33,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-html.loading,
-html.loading * {
-	cursor: wait !important;
-}
-
 .loading-screen {
 	position: fixed;
 	inset: 0;
